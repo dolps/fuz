@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: fuzmicros
+  namespace: default
+  labels:
+    app: fuzmicros
+spec:
+  selector:
+    app: fuzmicros
+  ports:
+  - name: web
+    port: 8081
