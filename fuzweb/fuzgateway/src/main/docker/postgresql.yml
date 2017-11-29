@@ -1,0 +1,11 @@
+version: '2'
+services:
+    fuzgateway-postgresql:
+        image: postgres:9.6.5
+        # volumes:
+        #     - ~/volumes/jhipster/fuzgateway/postgresql/:/var/lib/postgresql/data/
+        environment:
+            - POSTGRES_USER=fuzgateway
+            - POSTGRES_PASSWORD=
+        ports:
+            - 5432:5432
