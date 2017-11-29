@@ -1,0 +1,762 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b9b15217-6b7e-4647-91c0-8a7b2677609e" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/io/fuz/fuzmicros/FuzmicrosApp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/entities/entity.module.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/config/bootstrap.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/.angular-cli.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/account/password/password-strength-bar.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/layouts/layout-routing.module.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/gateway/responserewriting/SwaggerBasePathRewritingFilter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/io/fuz/fuzmicros/config/LocaleConfiguration.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/io/fuz/fuzmicros/web/rest/errors/package-info.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/service/mapper/package-info.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/io/fuz/fuzmicros/web/rest/errors/InvalidPasswordException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/manifest.webapp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/i18n/messages.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/docker/consul.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../k8/fuzmicros/fuzmicros-service.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/i18n/messages_en.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/webpack/logo-jhipster.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/admin/logs/logs.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/home/home.route.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/test/javascript/spec/app/admin/audits/audits.component.spec.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/test/features/user/user.feature" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/test/java/io/fuz/gateway/web/rest/UserJWTControllerIntTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/layouts/footer/footer.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/shared/shared.module.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/io/fuz/fuzmicros/config/CacheConfiguration.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/webpack/webpack.common.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/content/images/hipster.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/layouts/error/error.route.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/security/jwt/JWTFilter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/yarn.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/web/websocket/dto/package-info.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/resources/i18n/messages_en.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/account/account.route.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/io/fuz/fuzmicros/config/MicroserviceSecurityConfiguration.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/i18n/en/tracker.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/resources/i18n/messages.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/io/fuz/fuzmicros/config/audit/package-info.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/test/java/io/fuz/gateway/web/rest/AccountResourceIntTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/home/home.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/i18n/en/user-management.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/io/fuz/fuzmicros/config/DateTimeFormatConfiguration.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/shared/constants/error.constants.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/admin/admin.module.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../k8/fuzgateway/fuzgateway-service.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/web/rest/errors/ErrorConstants.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/admin/audits/audits.route.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/web/rest/errors/CustomParameterizedException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/account/password/password-strength-bar.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/webpack/webpack.test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/admin/admin.route.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/shared/tracker/window.service.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/repository/PersistenceAuditEventRepository.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/admin/user-management/user-management-delete-dialog.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/tsconfig-aot.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/web/rest/util/HeaderUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/web/rest/LogsResource.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/test/javascript/spec/helpers/mock-tracker.service.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/resources/mails/activationEmail.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/io/fuz/fuzmicros/config/ThymeleafConfiguration.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/admin/audits/audits.service.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/docker/.dockerignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/io/fuz/fuzmicros/web/rest/LogsResource.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/io/fuz/fuzmicros/config/WebConfigurerTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/admin/configuration/configuration.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/app.route.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/io/fuz/fuzmicros/security/jwt/JWTConfigurer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/test/javascript/e2e/page-objects/jhi-page-objects.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/shared/auth/has-any-authority.directive.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/io/fuz/fuzmicros/web/rest/package-info.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/layouts/main/main.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/shared/user/user.model.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/admin/docs/docs.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/resources/config/application-dev.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/test/java/io/fuz/gateway/security/jwt/JWTFilterTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/error.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/test/java/io/fuz/gateway/web/rest/LogsResourceIntTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/service/dto/UserDTO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/resources/config/bootstrap.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/admin/audits/audit.model.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/admin/user-management/user-management.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/postcss.config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/security/jwt/JWTConfigurer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/docker/app.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/web/rest/vm/KeyAndPasswordVM.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/io/fuz/fuzmicros/domain/package-info.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/shared/user/account.model.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/swagger-ui/dist/images/throbber.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/test/java/io/fuz/gateway/web/rest/ProfileInfoResourceIntTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/web/rest/UserJWTController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/web/rest/errors/FieldErrorVM.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/domain/PersistentAuditEvent.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/i18n/en/global.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/.mvn/wrapper/maven-wrapper.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/test/javascript/e2e/admin/administration.spec.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/io/fuz/fuzmicros/config/DatabaseConfiguration.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/account/settings/settings.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/admin/configuration/configuration.service.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/test/java/io/fuz/gateway/config/WebConfigurerTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/admin/logs/logs.route.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/account/settings/settings.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resources/logback.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/account/password/password.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/shared/auth/user-route-access-service.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/gateway/ratelimiting/RateLimitingFilter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/config/package-info.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/config/CacheConfiguration.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/account/activate/activate.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/security/SecurityUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/io/fuz/fuzmicros/web/rest/ProfileInfoResourceIntTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/mvnw.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/io/fuz/fuzmicros/security/AuthoritiesConstants.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/config/DatabaseConfiguration.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/tslint.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/gateway/TokenRelayFilter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/web/rest/AccountResource.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/config/SecurityConfiguration.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/i18n/en/reset.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/admin/user-management/user-management-detail.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/io/fuz/fuzmicros/web/rest/errors/BadRequestAlertException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/config/WebsocketConfiguration.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/config/WebConfigurer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/repository/UserRepository.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/service/MailService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/resources/config/application.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/config/application.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/io/fuz/fuzmicros/security/SpringSecurityAuditorAware.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/account/settings/settings.route.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/io/fuz/fuzmicros/config/WebConfigurerTestController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/test/resources/i18n/messages_en.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/layouts/profiles/profile-info.model.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/web/rest/AuditResource.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/content/images/logo-jhipster.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/io/fuz/fuzmicros/config/LoggingAspectConfiguration.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/test/java/io/fuz/gateway/cucumber/stepdefs/UserStepDefs.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/account/register/register.route.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/io/fuz/fuzmicros/repository/package-info.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/test/javascript/spec/app/account/register/register.component.spec.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/config/LoggingConfiguration.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/io/fuz/fuzmicros/config/LoggingConfiguration.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/content/scss/global.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/gateway/accesscontrol/AccessControlFilter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/io/fuz/fuzmicros/config/WebConfigurer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/test/javascript/spec/helpers/mock-language.service.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/admin/gateway/gateway.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/domain/AbstractAuditingEntity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/domain/Authority.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/ApplicationWebXml.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/account/password-reset/init/password-reset-init.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/io/fuz/fuzmicros/security/SecurityUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/io/fuz/fuzmicros/web/rest/util/HeaderUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../k8/fuzgateway/fuzgateway-mysql.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/account/activate/activate.route.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/docker/config/git2consul.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/test/java/io/fuz/gateway/security/SecurityUtilsUnitTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/web/rest/errors/package-info.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/shared/login/login.service.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/config/bootstrap-prod.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/aop/logging/LoggingAspect.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/resources/config/liquibase/changelog/00000000000000_initial_schema.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/FuzgatewayApp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/admin/docs/docs.route.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/test/java/io/fuz/gateway/security/jwt/TokenProviderTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/admin/health/health.route.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/config/apidoc/GatewaySwaggerResourcesProvider.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/domain/User.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/test/java/io/fuz/gateway/web/rest/TestUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/polyfills.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/config/DateTimeFormatConfiguration.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/.yo-rc.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/web/rest/errors/InternalServerErrorException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/web/rest/ProfileInfoResource.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/layouts/error/error.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/io/fuz/fuzmicros/domain/PersistentAuditEvent.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/admin/tracker/tracker.route.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/layouts/navbar/navbar.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/resources/mails/creationEmail.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/io/fuz/fuzmicros/web/rest/errors/ExceptionTranslatorTestController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/io/fuz/fuzmicros/config/MetricsConfiguration.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/test/java/io/fuz/gateway/repository/CustomAuditEventRepositoryIntTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/shared/model/request-util.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../k8/registry/consul.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/admin/metrics/metrics-modal.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/service/mapper/UserMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/admin/audits/audits.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/test/javascript/spec/helpers/mock-principal.service.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/io/fuz/fuzmicros/service/package-info.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/admin/health/health.service.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/i18n/en/home.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/admin/tracker/tracker.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/test/resources/mails/testEmail.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/shared/language/language.constants.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/shared/auth/csrf.service.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/admin/gateway/gateway.route.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/test/java/io/fuz/gateway/cucumber/CucumberTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.editorconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/admin/metrics/metrics.route.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/io/fuz/fuzmicros/web/rest/errors/FieldErrorVM.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/admin/logs/log.model.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/shared/auth/account.service.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/account/password-reset/finish/password-reset-finish.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/account/password-reset/finish/password-reset-finish.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/test/javascript/spec/app/account/activate/activate.component.spec.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/account/password/password.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/io/fuz/fuzmicros/domain/AbstractAuditingEntity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/docker/central-server-config/application.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/home/home.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/test/javascript/spec/app/account/settings/settings.component.spec.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/web/rest/vm/ManagedUserVM.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/admin/user-management/user-management-detail.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/webpack/utils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/mvnw" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/security/jwt/TokenProvider.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/test/java/io/fuz/gateway/web/rest/UserResourceIntTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/blocks/config/uib-pagination.config.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../k8/registry/application-configmap.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/proxy.conf.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/shared/alert/alert.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/account/register/register.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/app.main-aot.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/io/fuz/fuzmicros/security/jwt/TokenProvider.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/home/home.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/io/fuz/fuzmicros/web/rest/errors/ExceptionTranslatorIntTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/tsconfig.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/admin/user-management/user-management-delete-dialog.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/admin/user-management/user-management-dialog.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/layouts/footer/footer.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/resources/config/liquibase/users_authorities.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/docker/Dockerfile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/account/password-reset/finish/password-reset-finish.service.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/account/activate/activate.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/resources/config/liquibase/master.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/config/MetricsConfiguration.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/i18n/en/login.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/test/resources/logback.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/docker/mysql.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/test/javascript/spec/helpers/mock-route.service.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/web/rest/vm/package-info.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/service/package-info.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/admin/user-management/user-management.route.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/shared/auth/state-storage.service.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/account/password-reset/init/password-reset-init.route.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/io/fuz/fuzmicros/config/audit/AuditEventConverter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/docker/central-server-config/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/test/javascript/spec/app/account/password/password.component.spec.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/config/LocaleConfiguration.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/config/DefaultProfileUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../k8/fuzmicros/fuzmicros-mysql.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/config/audit/AuditEventConverter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/io/fuz/fuzmicros/security/jwt/JWTFilter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/web/rest/vm/RouteVM.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/security/UserNotActivatedException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/service/util/RandomUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/home/index.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/test/java/io/fuz/gateway/gateway/responserewriting/SwaggerBasePathRewritingFilterTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/account/account.module.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/account/register/register.service.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/domain/package-info.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/test/javascript/e2e/account/account.spec.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/resources/config/application-prod.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/blocks/config/prod.config.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/layouts/profiles/profile.service.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/web/rest/errors/ExceptionTranslator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/app.constants.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/app.module.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/webpack/webpack.prod.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/admin/logs/logs.service.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/io/fuz/fuzmicros/web/rest/errors/InternalServerErrorException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/shared/index.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/test/javascript/spec/app/account/password-reset/finish/password-reset-finish.component.spec.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/i18n/en/health.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../k8/.yo-rc.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/io/fuz/fuzmicros/config/ApplicationProperties.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/test/javascript/spec/test.module.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/admin/audits/audit-data.model.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/io/fuz/fuzmicros/web/rest/errors/EmailNotFoundException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/docker/central-server-config/application.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/test/java/io/fuz/gateway/service/UserServiceIntTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/layouts/error/error.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/docker/consul.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/i18n/en/settings.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/layouts/navbar/navbar.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/admin/user-management/user-management.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/docker/Dockerfile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/admin/audits/audits.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/layouts/main/main.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/test/javascript/karma.conf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/admin/configuration/configuration.route.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/i18n/en/sessions.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/test/javascript/spec/app/admin/health/health.component.spec.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/io/fuz/fuzmicros/web/rest/errors/EmailAlreadyUsedException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/config/application-prod.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/test/javascript/spec/entry.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/web/websocket/dto/ActivityDTO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/web/websocket/ActivityService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/i18n/en/password.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/test/java/io/fuz/gateway/web/rest/errors/ExceptionTranslatorTestController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/yarn.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/test/java/io/fuz/gateway/cucumber/stepdefs/StepDefs.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/web/rest/errors/InvalidPasswordException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/io/fuz/fuzmicros/web/rest/errors/ErrorConstants.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/shared/tracker/tracker.service.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/docker/mysql.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mvnw" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/config/GatewayConfiguration.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/test/javascript/protractor.conf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/content/scss/_bootstrap-variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/layouts/navbar/active-menu.directive.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/service/AuditEventService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/i18n/en/logs.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/test/javascript/spec/app/account/password/password-strength-bar.component.spec.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/account/index.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/shared/shared-common.module.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/shared/alert/alert-error.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/404.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/home/home.module.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/config/liquibase/changelog/00000000000000_initial_schema.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/shared/login/login.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/admin/index.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/account/password/password.service.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/config/audit/package-info.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/io/fuz/fuzmicros/config/package-info.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/io/fuz/fuzmicros/config/CloudDatabaseConfiguration.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/account/password/password.route.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/banner.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/docker/app.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/io/fuz/fuzmicros/web/rest/TestUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/admin/gateway/gateway.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/docker/central-server-config/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/blocks/interceptor/errorhandler.interceptor.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/layouts/profiles/page-ribbon.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resources/config/bootstrap.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/account/password-reset/init/password-reset-init.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/test/javascript/spec/app/account/password-reset/init/password-reset-init.component.spec.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/security/SpringSecurityAuditorAware.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/blocks/interceptor/notification.interceptor.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/io/fuz/fuzmicros/web/rest/util/PaginationUtilUnitTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/i18n/en/activate.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/docker/sonar.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/repository/AuthorityRepository.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/io/fuz/fuzmicros/ApplicationWebXml.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/admin/metrics/metrics.service.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/shared/language/find-language-from-key.pipe.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/admin/health/health.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/app.main.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/config/JacksonConfiguration.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/.editorconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/shared/constants/pagination.constants.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/io/fuz/fuzmicros/web/rest/errors/LoginAlreadyUsedException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/io/fuz/fuzmicros/aop/logging/LoggingAspect.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/docker/config/git2consul.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/shared/login/login.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/test/gatling/conf/logback.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/web/rest/errors/EmailAlreadyUsedException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/admin/health/health.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/security/DomainUserDetailsService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/io/fuz/fuzmicros/web/rest/util/PaginationUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/io/fuz/fuzmicros/web/rest/vm/LoggerVM.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/admin/docs/docs.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/test/java/io/fuz/gateway/config/WebConfigurerTestController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/i18n/en/register.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/admin/health/health-modal.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/admin/gateway/gateway-routes.service.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/test/resources/config/application.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/admin/user-management/user-modal.service.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/io/fuz/fuzmicros/config/JacksonConfiguration.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/config/Constants.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/io/fuz/fuzmicros/web/rest/LogsResourceIntTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/test/javascript/spec/helpers/spyobject.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/admin/tracker/tracker.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/i18n/en/configuration.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/web/rest/vm/LoggerVM.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/content/images/hipster2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/config/AsyncConfiguration.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mvnw.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/admin/metrics/metrics-modal.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/resources/templates/error.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/web/rest/package-info.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/shared/auth/auth-jwt.service.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/admin/logs/logs.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/test/java/io/fuz/gateway/web/rest/AuditResourceIntTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/resources/banner.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/web/rest/UserResource.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/service/dto/package-info.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/admin/metrics/metrics.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../k8/fuzgateway/fuzgateway-deployment.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/shared/language/language.helper.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/test/java/io/fuz/gateway/service/MailServiceIntTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/blocks/interceptor/auth-expired.interceptor.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/resources/logback-spring.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/shared/auth/principal.service.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/repository/package-info.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/shared/user/user.service.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.yo-rc.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/io/fuz/fuzmicros/web/rest/ProfileInfoResource.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/admin/metrics/metrics.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/resources/config/liquibase/authorities.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/admin/user-management/user-management-dialog.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../k8/registry/consul-config-loader.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/i18n/en/error.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/config/ApplicationProperties.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/docker/sonar.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/web/rest/errors/EmailNotFoundException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../k8/fuzmicros/fuzmicros-deployment.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/content/scss/vendor.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/test/resources/config/bootstrap.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/resources/config/liquibase/users.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/test/javascript/spec/helpers/mock-account.service.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/io/fuz/fuzmicros/web/rest/errors/ExceptionTranslator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/i18n/en/metrics.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/sw.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/security/AuthoritiesConstants.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/io/fuz/fuzmicros/config/DefaultProfileUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/security/package-info.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/config/liquibase/master.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/web/rest/errors/BadRequestAlertException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/test/features/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/web/websocket/package-info.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/i18n/en/audits.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/account/password-reset/finish/password-reset-finish.route.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/layouts/navbar/navbar.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/test/gatling/conf/gatling.conf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/account/password-reset/init/password-reset-init.service.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/admin/gateway/gateway-route.model.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/shared/shared-libs.module.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/service/UserService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/blocks/interceptor/http.provider.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/test/java/io/fuz/gateway/web/rest/util/PaginationUtilUnitTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/io/fuz/fuzmicros/web/rest/errors/CustomParameterizedException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/account/activate/activate.service.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/config/CloudDatabaseConfiguration.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/repository/CustomAuditEventRepository.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/shared/model/base-entity.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/web/rest/util/PaginationUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/web/rest/errors/LoginAlreadyUsedException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/web/rest/GatewayResource.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/io/fuz/fuzmicros/config/AsyncConfiguration.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/resources/.h2.server.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/resources/config/bootstrap-prod.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/io/fuz/fuzmicros/config/Constants.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/vendor.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/shared/model/response-wrapper.model.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/.h2.server.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/config/application-dev.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/.mvn/wrapper/maven-wrapper.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/config/WebsocketSecurityConfiguration.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/resources/mails/passwordResetEmail.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/blocks/interceptor/auth.interceptor.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/i18n/en/gateway.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/webpack/webpack.dev.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/io/fuz/fuzmicros/web/rest/vm/package-info.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/config/LoggingAspectConfiguration.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/swagger-ui/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resources/config/application.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/shared/login/login-modal.service.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/account/register/register.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/admin/configuration/configuration.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/web/rest/vm/LoginVM.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/docker/.dockerignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/logback-spring.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/test/java/io/fuz/gateway/web/rest/errors/ExceptionTranslatorIntTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/java/io/fuz/gateway/config/ThymeleafConfiguration.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/admin/health/health-modal.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../k8/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/layouts/profiles/page-ribbon.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../fuzgateway/src/main/webapp/app/layouts/index.ts" afterPath="" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>generator-</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.editorconfig" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource ProjectPane="true" />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fuzmicros" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fuzmicros" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="FullScreen" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.FuzmicrosApp">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="false" name="FuzmicrosApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.fuz.fuzmicros.FuzmicrosApp" />
+      <module name="fuzmicros" />
+      <envs />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Spring Boot.FuzmicrosApp" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b9b15217-6b7e-4647-91c0-8a7b2677609e" name="Default" comment="" />
+      <created>1511608292442</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1511608292442</updated>
+      <workItem from="1511608296201" duration="1018000" />
+      <workItem from="1511981589120" duration="14000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1032000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2536349" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.editorconfig" />
+    <entry file="file://$PROJECT_DIR$/.yo-rc.json" />
+  </component>
+</project>
