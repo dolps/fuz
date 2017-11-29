@@ -83,7 +83,6 @@
     "node-sass": "4.5.3",
     "postcss-loader": "2.0.6",
     "xml2js": "0.4.17",
-    "generator-jhipster-spring-social-connectors": "0.0.1",
     "uglifyjs-webpack-plugin": "1.0.0-beta.2",
     "webpack": "3.6.0",
     "webpack-dev-server": "2.8.2",

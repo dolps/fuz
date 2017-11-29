@@ -2,7 +2,8 @@
   "generator-jhipster": {
     "promptValues": {
       "packageName": "io.fuz.fuzgateway",
-      "nativeLanguage": "en"
+      "nativeLanguage": "en",
+      "microservicePath": "../fuzapi"
     },
     "jhipsterVersion": "4.10.2",
     "baseName": "fuzgateway",
@@ -15,14 +16,14 @@
     "websocket": "spring-websocket",
     "databaseType": "sql",
     "devDatabaseType": "h2Memory",
-    "prodDatabaseType": "postgresql",
+    "prodDatabaseType": "mysql",
     "searchEngine": false,
-    "messageBroker": "kafka",
+    "messageBroker": false,
     "serviceDiscoveryType": "eureka",
     "buildTool": "maven",
     "enableSocialSignIn": false,
     "enableSwaggerCodegen": false,
-    "jwtSecretKey": "3657daa7c959a53bbef3693b79cc3cde8ebfdaff",
+    "jwtSecretKey": "d41d2a4e9c6a6f6ea58ab6e001d14018a924f6bc",
     "clientFramework": "angularX",
     "useSass": true,
     "clientPackageManager": "yarn",
@@ -33,12 +34,6 @@
       "protractor"
     ],
     "jhiPrefix": "jhi",
-    "otherModules": [
-      {
-        "name": "generator-jhipster-spring-social-connectors",
-        "version": "0.0.1"
-      }
-    ],
     "enableTranslation": true,
     "nativeLanguage": "en",
     "languages": [

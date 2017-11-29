@@ -1,0 +1,29 @@
+
+<div *ngIf="game">
+    <h2><span jhiTranslate="fuzgatewayApp.game.detail.title">Game</span> {{game.id}}</h2>
+    <hr>
+    <jhi-alert-error></jhi-alert-error>
+    <dl class="row-md jh-entity-details">
+        <dt><span jhiTranslate="fuzgatewayApp.game.player1">Player 1</span></dt>
+        <dd>
+            <span>{{game.player1}}</span>
+        </dd>
+        <dt><span jhiTranslate="fuzgatewayApp.game.player2">Player 2</span></dt>
+        <dd>
+            <span>{{game.player2}}</span>
+        </dd>
+    </dl>
+
+    <button type="submit"
+            (click)="previousState()"
+            class="btn btn-info">
+        <span class="fa fa-arrow-left"></span>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+    </button>
+
+    <button type="button"
+            [routerLink]="['/', { outlets: { popup: 'game/'+ game.id + '/edit'} }]"
+            replaceUrl="true"
+            class="btn btn-primary">
+        <span class="fa fa-pencil"></span>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+    </button>
+</div>

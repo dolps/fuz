@@ -1,0 +1,22 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "player1",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "player2",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20171129201216",
+    "dto": "mapstruct",
+    "service": "serviceImpl",
+    "entityTableName": "game",
+    "jpaMetamodelFiltering": false,
+    "pagination": "no",
+    "microserviceName": "fuzapi",
+    "searchEngine": false
+}

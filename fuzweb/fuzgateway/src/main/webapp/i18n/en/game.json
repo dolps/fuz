@@ -1,0 +1,26 @@
+{
+    "fuzgatewayApp": {
+        "game" : {
+            "home": {
+                "title": "Games",
+                "createLabel": "Create a new Game",
+                "createOrEditLabel": "Create or edit a Game"
+            },
+            "delete": {
+                "question": "Are you sure you want to delete Game {{ id }}?"
+            },
+            "detail": {
+                "title": "Game"
+            },
+            "player1": "Player 1",
+            "player2": "Player 2"
+        }
+    },
+    "fuzapiApp": {
+        "game" : {
+            "created": "A new Game is created with identifier {{ param }}",
+            "updated": "A Game is updated with identifier {{ param }}",
+            "deleted": "A Game is deleted with identifier {{ param }}"
+        }
+    }
+}

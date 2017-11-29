@@ -6,26 +6,14 @@ services:
             - SPRING_PROFILES_ACTIVE=prod,swagger
             - EUREKA_CLIENT_SERVICE_URL_DEFAULTZONE=http://admin:$${jhipster.registry.password}@jhipster-registry:8761/eureka
             - SPRING_CLOUD_CONFIG_URI=http://admin:$${jhipster.registry.password}@jhipster-registry:8761/config
-            - SPRING_DATASOURCE_URL=jdbc:postgresql://fuzgateway-postgresql:5432/fuzgateway
+            - SPRING_DATASOURCE_URL=jdbc:mysql://fuzgateway-mysql:3306/fuzgateway?useUnicode=true&characterEncoding=utf8&useSSL=false
             - JHIPSTER_SLEEP=30 # gives time for the JHipster Registry to boot before the application
-            - SPRING_CLOUD_STREAM_KAFKA_BINDER_BROKERS=kafka
-            - SPRING_CLOUD_STREAM_KAFKA_BINDER_ZK_NODES=zookeeper
         ports:
             - 8080:8080
-    fuzgateway-postgresql:
+    fuzgateway-mysql:
         extends:
-            file: postgresql.yml
-            service: fuzgateway-postgresql
-    kafka:
-        extends:
-            file: kafka.yml
-            service: kafka
-        environment:
-            - KAFKA_ADVERTISED_HOST_NAME=kafka
-    zookeeper:
-        extends:
-            file: kafka.yml
-            service: zookeeper
+            file: mysql.yml
+            service: fuzgateway-mysql
     jhipster-registry:
         extends:
             file: jhipster-registry.yml
