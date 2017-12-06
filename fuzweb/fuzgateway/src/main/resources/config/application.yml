@@ -104,6 +104,9 @@ jhipster:
         core-pool-size: 2
         max-pool-size: 50
         queue-capacity: 10000
+
+    cors:
+            allowed-origins: "http://localhost:8100"
     # By default CORS is disabled. Uncomment to enable.
     #cors:
         #allowed-origins: "*"
