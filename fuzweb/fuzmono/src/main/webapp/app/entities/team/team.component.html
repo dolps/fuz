@@ -18,6 +18,8 @@
             <tr jhiSort [(predicate)]="predicate" [(ascending)]="reverse" [callback]="reset.bind(this)">
             <th jhiSortBy="id"><span jhiTranslate="global.field.id">ID</span> <span class="fa fa-sort"></span></th>
             <th jhiSortBy="teamName"><span jhiTranslate="fuzmonoApp.team.teamName">Team Name</span> <span class="fa fa-sort"></span></th>
+            <th jhiSortBy="pOne.id"><span jhiTranslate="fuzmonoApp.team.pOne">P One</span> <span class="fa fa-sort"></span></th>
+            <th jhiSortBy="pTwo.id"><span jhiTranslate="fuzmonoApp.team.pTwo">P Two</span> <span class="fa fa-sort"></span></th>
             <th></th>
             </tr>
             </thead>
@@ -25,6 +27,16 @@
             <tr *ngFor="let team of teams ;trackBy: trackId">
                 <td><a [routerLink]="['../team', team.id ]">{{team.id}}</a></td>
                 <td>{{team.teamName}}</td>
+                <td>
+                    <div *ngIf="team.pOne">
+                        <a [routerLink]="['../player', team.pOne?.id ]" >{{team.pOne?.id}}</a>
+                    </div>
+                </td>
+                <td>
+                    <div *ngIf="team.pTwo">
+                        <a [routerLink]="['../player', team.pTwo?.id ]" >{{team.pTwo?.id}}</a>
+                    </div>
+                </td>
                 <td class="text-right">
                     <div class="btn-group flex-btn-group-container">
                         <button type="submit"

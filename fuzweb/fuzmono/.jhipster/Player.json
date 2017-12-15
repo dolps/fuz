@@ -9,7 +9,7 @@
                 "required",
                 "minlength"
             ],
-            "fieldValidateRulesMinlength": "3"
+            "fieldValidateRulesMinlength": 3
         },
         {
             "fieldName": "firstName",
@@ -18,7 +18,7 @@
                 "required",
                 "minlength"
             ],
-            "fieldValidateRulesMinlength": "3"
+            "fieldValidateRulesMinlength": 3
         },
         {
             "fieldName": "lastName",
@@ -27,7 +27,7 @@
                 "required",
                 "minlength"
             ],
-            "fieldValidateRulesMinlength": "3"
+            "fieldValidateRulesMinlength": 3
         },
         {
             "fieldName": "gamesWon",
@@ -39,9 +39,9 @@
         }
     ],
     "changelogDate": "20171215222632",
-    "dto": "no",
-    "service": "serviceClass",
     "entityTableName": "player",
-    "jpaMetamodelFiltering": false,
-    "pagination": "infinite-scroll"
+    "dto": "no",
+    "pagination": "infinite-scroll",
+    "service": "serviceClass",
+    "jpaMetamodelFiltering": false
 }

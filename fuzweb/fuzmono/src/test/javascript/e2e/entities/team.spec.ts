@@ -33,6 +33,8 @@ describe('Team e2e test', () => {
         teamComponentsPage.clickOnCreateButton();
         teamDialogPage.setTeamNameInput('teamName');
         expect(teamDialogPage.getTeamNameInput()).toMatch('teamName');
+        teamDialogPage.pOneSelectLastOption();
+        teamDialogPage.pTwoSelectLastOption();
         teamDialogPage.save();
         expect(teamDialogPage.getSaveButton().isPresent()).toBeFalsy();
     });
@@ -60,6 +62,8 @@ export class TeamDialogPage {
     saveButton = element(by.css('.modal-footer .btn.btn-primary'));
     closeButton = element(by.css('button.close'));
     teamNameInput = element(by.css('input#field_teamName'));
+    pOneSelect = element(by.css('select#field_pOne'));
+    pTwoSelect = element(by.css('select#field_pTwo'));
 
     getModalTitle() {
         return this.modalTitle.getAttribute('jhiTranslate');
@@ -71,6 +75,38 @@ export class TeamDialogPage {
 
     getTeamNameInput = function() {
         return this.teamNameInput.getAttribute('value');
+    }
+
+    pOneSelectLastOption = function() {
+        this.pOneSelect.all(by.tagName('option')).last().click();
+    }
+
+    pOneSelectOption = function(option) {
+        this.pOneSelect.sendKeys(option);
+    }
+
+    getPOneSelect = function() {
+        return this.pOneSelect;
+    }
+
+    getPOneSelectedOption = function() {
+        return this.pOneSelect.element(by.css('option:checked')).getText();
+    }
+
+    pTwoSelectLastOption = function() {
+        this.pTwoSelect.all(by.tagName('option')).last().click();
+    }
+
+    pTwoSelectOption = function(option) {
+        this.pTwoSelect.sendKeys(option);
+    }
+
+    getPTwoSelect = function() {
+        return this.pTwoSelect;
+    }
+
+    getPTwoSelectedOption = function() {
+        return this.pTwoSelect.element(by.css('option:checked')).getText();
     }
 
     save() {

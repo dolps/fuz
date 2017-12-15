@@ -1,6 +1,23 @@
 {
     "fluentMethods": true,
-    "relationships": [],
+    "relationships": [
+        {
+            "relationshipType": "one-to-one",
+            "relationshipName": "pOne",
+            "otherEntityName": "player",
+            "otherEntityField": "id",
+            "ownerSide": true,
+            "otherEntityRelationshipName": "team"
+        },
+        {
+            "relationshipType": "one-to-one",
+            "relationshipName": "pTwo",
+            "otherEntityName": "player",
+            "otherEntityField": "id",
+            "ownerSide": true,
+            "otherEntityRelationshipName": "team"
+        }
+    ],
     "fields": [
         {
             "fieldName": "teamName",
@@ -9,13 +26,13 @@
                 "required",
                 "minlength"
             ],
-            "fieldValidateRulesMinlength": "3"
+            "fieldValidateRulesMinlength": 3
         }
     ],
     "changelogDate": "20171215222218",
-    "dto": "no",
-    "service": "serviceClass",
     "entityTableName": "team",
-    "jpaMetamodelFiltering": false,
-    "pagination": "infinite-scroll"
+    "dto": "no",
+    "pagination": "infinite-scroll",
+    "service": "serviceClass",
+    "jpaMetamodelFiltering": false
 }

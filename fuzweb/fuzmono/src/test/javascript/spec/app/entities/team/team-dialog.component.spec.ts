@@ -8,6 +8,7 @@ import { FuzmonoTestModule } from '../../../test.module';
 import { TeamDialogComponent } from '../../../../../../main/webapp/app/entities/team/team-dialog.component';
 import { TeamService } from '../../../../../../main/webapp/app/entities/team/team.service';
 import { Team } from '../../../../../../main/webapp/app/entities/team/team.model';
+import { PlayerService } from '../../../../../../main/webapp/app/entities/player';
 
 describe('Component Tests', () => {
 
@@ -23,6 +24,7 @@ describe('Component Tests', () => {
                 imports: [FuzmonoTestModule],
                 declarations: [TeamDialogComponent],
                 providers: [
+                    PlayerService,
                     TeamService
                 ]
             })

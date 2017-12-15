@@ -8,6 +8,18 @@
         <dd>
             <span>{{team.teamName}}</span>
         </dd>
+        <dt><span jhiTranslate="fuzmonoApp.team.pOne">P One</span></dt>
+        <dd>
+            <div *ngIf="team.pOne">
+                <a [routerLink]="['/player', team.pOne?.id]">{{team.pOne?.id}}</a>
+            </div>
+        </dd>
+        <dt><span jhiTranslate="fuzmonoApp.team.pTwo">P Two</span></dt>
+        <dd>
+            <div *ngIf="team.pTwo">
+                <a [routerLink]="['/player', team.pTwo?.id]">{{team.pTwo?.id}}</a>
+            </div>
+        </dd>
     </dl>
 
     <button type="submit"

@@ -15,7 +15,9 @@
             "detail": {
                 "title": "Team"
             },
-            "teamName": "Team Name"
+            "teamName": "Team Name",
+            "pOne": "P One",
+            "pTwo": "P Two"
         }
     }
 }

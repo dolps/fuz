@@ -4,11 +4,13 @@ import { Response } from '@angular/http';
 
 import { Observable } from 'rxjs/Rx';
 import { NgbActiveModal } from '@ng-bootstrap/ng-bootstrap';
-import { JhiEventManager } from 'ng-jhipster';
+import { JhiEventManager, JhiAlertService } from 'ng-jhipster';
 
 import { Team } from './team.model';
 import { TeamPopupService } from './team-popup.service';
 import { TeamService } from './team.service';
+import { Player, PlayerService } from '../player';
+import { ResponseWrapper } from '../../shared';
 
 @Component({
     selector: 'jhi-team-dialog',
@@ -19,15 +21,47 @@ export class TeamDialogComponent implements OnInit {
     team: Team;
     isSaving: boolean;
 
+    pones: Player[];
+
+    ptwos: Player[];
+
     constructor(
         public activeModal: NgbActiveModal,
+        private jhiAlertService: JhiAlertService,
         private teamService: TeamService,
+        private playerService: PlayerService,
         private eventManager: JhiEventManager
     ) {
     }
 
     ngOnInit() {
         this.isSaving = false;
+        this.playerService
+            .query({filter: 'team-is-null'})
+            .subscribe((res: ResponseWrapper) => {
+                if (!this.team.pOne || !this.team.pOne.id) {
+                    this.pones = res.json;
+                } else {
+                    this.playerService
+                        .find(this.team.pOne.id)
+                        .subscribe((subRes: Player) => {
+                            this.pones = [subRes].concat(res.json);
+                        }, (subRes: ResponseWrapper) => this.onError(subRes.json));
+                }
+            }, (res: ResponseWrapper) => this.onError(res.json));
+        this.playerService
+            .query({filter: 'team-is-null'})
+            .subscribe((res: ResponseWrapper) => {
+                if (!this.team.pTwo || !this.team.pTwo.id) {
+                    this.ptwos = res.json;
+                } else {
+                    this.playerService
+                        .find(this.team.pTwo.id)
+                        .subscribe((subRes: Player) => {
+                            this.ptwos = [subRes].concat(res.json);
+                        }, (subRes: ResponseWrapper) => this.onError(subRes.json));
+                }
+            }, (res: ResponseWrapper) => this.onError(res.json));
     }
 
     clear() {
@@ -58,6 +92,14 @@ export class TeamDialogComponent implements OnInit {
 
     private onSaveError() {
         this.isSaving = false;
+    }
+
+    private onError(error: any) {
+        this.jhiAlertService.error(error.message, null, null);
+    }
+
+    trackPlayerById(index: number, item: Player) {
+        return item.id;
     }
 }
 

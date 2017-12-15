@@ -28,6 +28,20 @@
             </div>
         </div>
 
+        <div class="form-group">
+            <label class="form-control-label" jhiTranslate="fuzmonoApp.team.pOne" for="field_pOne">P One</label>
+            <select class="form-control" id="field_pOne" name="pOne" [(ngModel)]="team.pOne">
+                <option [ngValue]="null"></option>
+                <option [ngValue]="playerOption.id === team.pOne?.id ? team.pOne : playerOption" *ngFor="let playerOption of pones; trackBy: trackPlayerById">{{playerOption.id}}</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label class="form-control-label" jhiTranslate="fuzmonoApp.team.pTwo" for="field_pTwo">P Two</label>
+            <select class="form-control" id="field_pTwo" name="pTwo" [(ngModel)]="team.pTwo">
+                <option [ngValue]="null"></option>
+                <option [ngValue]="playerOption.id === team.pTwo?.id ? team.pTwo : playerOption" *ngFor="let playerOption of ptwos; trackBy: trackPlayerById">{{playerOption.id}}</option>
+            </select>
+        </div>
     </div>
     <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal" (click)="clear()">

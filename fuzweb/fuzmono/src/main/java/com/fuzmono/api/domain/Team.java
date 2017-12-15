@@ -28,6 +28,14 @@ public class Team implements Serializable {
     @Column(name = "team_name", nullable = false)
     private String teamName;
 
+    @OneToOne
+    @JoinColumn(unique = true)
+    private Player pOne;
+
+    @OneToOne
+    @JoinColumn(unique = true)
+    private Player pTwo;
+
     // jhipster-needle-entity-add-field - JHipster will add fields here, do not remove
     public Long getId() {
         return id;
@@ -48,6 +56,32 @@ public class Team implements Serializable {
 
     public void setTeamName(String teamName) {
         this.teamName = teamName;
+    }
+
+    public Player getPOne() {
+        return pOne;
+    }
+
+    public Team pOne(Player player) {
+        this.pOne = player;
+        return this;
+    }
+
+    public void setPOne(Player player) {
+        this.pOne = player;
+    }
+
+    public Player getPTwo() {
+        return pTwo;
+    }
+
+    public Team pTwo(Player player) {
+        this.pTwo = player;
+        return this;
+    }
+
+    public void setPTwo(Player player) {
+        this.pTwo = player;
     }
     // jhipster-needle-entity-add-getters-setters - JHipster will add getters and setters here, do not remove
 
