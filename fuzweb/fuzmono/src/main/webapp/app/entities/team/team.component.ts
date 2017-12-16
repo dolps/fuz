@@ -11,7 +11,6 @@ import { ITEMS_PER_PAGE, Principal, ResponseWrapper } from '../../shared';
     templateUrl: './team.component.html'
 })
 export class TeamComponent implements OnInit, OnDestroy {
-
     teams: Team[];
     currentAccount: any;
     eventSubscriber: Subscription;
