@@ -1,0 +1,36 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "tOne",
+            "otherEntityName": "team",
+            "otherEntityRelationshipName": "game"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "tTwo",
+            "otherEntityName": "team",
+            "otherEntityRelationshipName": "game"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "winnerTeam",
+            "otherEntityName": "team",
+            "otherEntityRelationshipName": "game"
+        },
+        {
+            "relationshipName": "gameResult",
+            "otherEntityName": "gameResult",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "id"
+        }
+    ],
+    "fields": [],
+    "changelogDate": "20171216001318",
+    "entityTableName": "game",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false
+}

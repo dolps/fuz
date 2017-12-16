@@ -1,0 +1,21 @@
+{
+    "fuzmonoApp": {
+        "gameResult" : {
+            "home": {
+                "title": "Game Results",
+                "createLabel": "Create a new Game Result",
+                "createOrEditLabel": "Create or edit a Game Result"
+            },
+            "created": "A new Game Result is created with identifier {{ param }}",
+            "updated": "A Game Result is updated with identifier {{ param }}",
+            "deleted": "A Game Result is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Game Result {{ id }}?"
+            },
+            "detail": {
+                "title": "Game Result"
+            },
+            "game": "Game"
+        }
+    }
+}

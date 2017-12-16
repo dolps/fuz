@@ -1,0 +1,18 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "game",
+            "otherEntityName": "game",
+            "otherEntityRelationshipName": "gameResult"
+        }
+    ],
+    "fields": [],
+    "changelogDate": "20171216001319",
+    "entityTableName": "game_result",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false
+}

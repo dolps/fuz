@@ -12,6 +12,22 @@ entity Team {
   teamName String required minlength(3)
 }
 
+entity Game{
+
+}
+
+
+entity GameResult{
+
+}
+
+relationship OneToMany{
+	Game{tOne} to Team
+    Game{tTwo} to Team
+    Game{winnerTeam} to Team
+    GameResult{game} to Game
+}
+
 relationship OneToOne{
     Team{pOne} to Player
     Team{pTwo} to Player
