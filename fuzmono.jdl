@@ -1,0 +1,32 @@
+// JDL definition for application 'fuzmono' generated with command 'jhipster export-jdl'
+
+entity Player {
+  nickName String required minlength(3),
+  firstName String required minlength(3),
+  lastName String required minlength(3),
+}
+
+entity Team {
+  teamName String required minlength(3)
+}
+
+entity Game{
+
+}
+
+
+entity GameHistory{
+
+}
+
+relationship OneToMany{
+    GameHistory{game} to Game
+}
+
+relationship ManyToOne{
+    Team{player} to Player
+    Game{tOne} to Team
+}
+
+paginate Team, Player with infinite-scroll
+service Team, Player with serviceClass
